@@ -13,14 +13,33 @@ keywords: "yddchsc"
 weibo_username: yddchsc
 github_username: yddchsc
 
-# Markdown设置
+markdown: kramdown
+# markdown: redcarpet
+
+redcarpet:
+  extensions:
+    - hard_wrap
+    # - no_intra_emphasis
+    # - autolink
+    - strikethrough
+    - fenced_code_blocks
+    - tables
+    - superscript
+
 kramdown:
-  input:  GFM
-  use_coderay: true
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  parse_block_html: true
   coderay:
-    coderay_line_numbers:  nil
-
-
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
 
 # 地址设置
 baseurl: "/yddchsc.github.io"
