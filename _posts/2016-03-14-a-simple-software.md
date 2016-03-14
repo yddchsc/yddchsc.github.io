@@ -10,6 +10,7 @@ excerpt: "简述用C++与QT来写一个简单的程序"
 ##搭建QT开发环境
 
 > 自己去网上可以搜到搭建的方法。也可以点击[这里](http://www.haosou.com/s?ie=utf-8&src=360chrome_toolbar_search&q=markdown%E8%AF%AD%E6%B3%95)。
+
 ##编写代码的思路
 > 博文中通过注释来表述思路。
 
