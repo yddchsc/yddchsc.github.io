@@ -37,7 +37,7 @@ sass:
     style: :compressed
 
 # duoshuo设置
-# duoshuo_shortname: 
+duoshuo_shortname:yddchsc
 
 # 百度统计设置
 # baidu_analysis:
