@@ -12,6 +12,7 @@ excerpt: "简述用C++与QT来写一个简单的程序"
 > 自己去网上可以搜到搭建的方法。也可以点击[这里](http://www.haosou.com/s?ie=utf-8&src=360chrome_toolbar_search&q=markdown%E8%AF%AD%E6%B3%95)。
 
 ##编写代码的思路
+
 > 博文中通过注释来表述思路。
 
 > 可以点击[这里](http://download.csdn.net/detail/duanxinhuishou/8809159)下载源代码。（已通过qmake+mingw编译生成可执行文件）。
@@ -292,6 +293,7 @@ int main(int argc, char *argv[])
 }      
 ```
 ##使用qmake+mingw编译QT
+
 > - 从开始菜单进入qt4.8.5command prompt 控制台界面
 
 > ![](http://img.blog.csdn.net/20150616104758664)
