@@ -1,3 +1,8 @@
+---
+layout: about
+permalink: /about/
+---
+
 关于我
 ===
 一个目前程序媛，正努力朝web安全转变的菜鸟。
