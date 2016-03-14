@@ -7,11 +7,13 @@ author: yddchsc
 excerpt: "简述用C++与QT来写一个简单的程序"
 ---
 
-##搭建QT开发环境
+搭建QT开发环境
+===
 
 > 自己去网上可以搜到搭建的方法。也可以点击[这里](http://www.haosou.com/s?ie=utf-8&src=360chrome_toolbar_search&q=markdown%E8%AF%AD%E6%B3%95)。
 
-##编写代码的思路
+编写代码的思路
+===
 
 > 博文中通过注释来表述思路。
 
@@ -292,7 +294,8 @@ int main(int argc, char *argv[])
     return a.exec();
 }      
 ```
-##使用qmake+mingw编译QT
+使用qmake+mingw编译QT
+===
 
 > - 从开始菜单进入qt4.8.5command prompt 控制台界面
 
