@@ -20,7 +20,7 @@ permalink: /about/
 
 > 一只目前程序媛，正努力朝web安全转变的菜鸟。
 
-> PHP,python,JavaScript,C,C++
+> PHP,Python,JavaScript,C,C++
 
 所谓经历
 ---
