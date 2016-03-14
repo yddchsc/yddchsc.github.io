@@ -2,15 +2,17 @@
 layout: post
 title: 如何用C++与QT来写一个简单的程序
 tags:  [C++,QT,qmake,mingw]
-categories: [QT,C++]
+categories: [QT,C plus plus]
 author: yddchsc
 excerpt: "简述用C++与QT来写一个简单的程序"
 ---
+
 ##搭建QT开发环境
+
 > 自己去网上可以搜到搭建的方法。也可以点击[这里]
 (http://www.haosou.com/s?ie=utf-8&src=360chrome_toolbar_search&q=markdown%E8%AF%AD%E6%B3%95)。
 ##编写代码的思路
->博文中通过注释来表述思路。
+> 博文中通过注释来表述思路。
 
 > 可以点击[这里](http://download.csdn.net/detail/duanxinhuishou/8809159)下载源代码。（已通过qmake+mingw编译生成可执行文件）。
 	
