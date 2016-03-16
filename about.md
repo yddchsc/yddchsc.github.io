@@ -67,9 +67,9 @@ permalink: /about/
 
 > - 用Java制作原生android应用。
 
-> - 用Java web制作服务器接口。
+> - 用Java Web制作服务器接口。
 
-> - Java web部署在百度开发云上，目前已停用。
+> - Java Web部署在百度开发云上，目前已停用。
 
 > - 参加数学建模培训与国赛。
 
@@ -83,5 +83,5 @@ permalink: /about/
 
 > 2016年3月
 
-> - 开始学习web安全。
+> - 开始学习Web安全。
 
