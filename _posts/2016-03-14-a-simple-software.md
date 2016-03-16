@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 如何用C++与QT来写一个简单的程序
-tags:  [C++,QT,qmake,mingw]
-categories: [QT,C++]
+title: 如何用C\+\+与QT来写一个简单的程序
+tags:  [C\+\+,QT,qmake,mingw]
+categories: [QT,C\+\+]
 author: yddchsc
-excerpt: "简述用C++与QT来写一个简单的程序"
+excerpt: "简述用C\+\+与QT来写一个简单的程序"
 ---
 
 搭建QT开发环境
