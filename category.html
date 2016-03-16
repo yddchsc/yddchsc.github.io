@@ -8,15 +8,15 @@ scripts: [category.js]
     <!-- 所有分类下文章 -->
     <section class="category hide" id="all">
       {% for post in site.posts %}
-          {% include posts.html%}
+          {% include posts.html %}
       {% endfor %}
     </section>
 
     <!-- 每一个分类下文章 -->
-    {% for category in site.categories%}
+    {% for category in site.categories %}
     <section class="category hide" id="{{category | first}}">
       {% for post in category.last %}
-            {% include posts.html%}
+            {% include posts.html %}
       {% endfor %}
     </section>
     {% endfor %}
