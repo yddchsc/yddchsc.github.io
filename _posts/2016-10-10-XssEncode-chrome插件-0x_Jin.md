@@ -9,7 +9,7 @@ categories: [wooyun]
 
 author: 乌云知识库
 
-excerpt: "简单演示jetty web server安全漏洞"
+excerpt: "插件的使用"
 
 ---
 
