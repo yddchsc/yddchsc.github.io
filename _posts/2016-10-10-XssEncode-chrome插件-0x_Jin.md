@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title:  jetty web server安全漏洞
+title:  XssEncode chrome插件
 
 tags:  [wooyun]
 
