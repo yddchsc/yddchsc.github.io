@@ -7,7 +7,7 @@ tags:  [wooyun]
 
 categories: [wooyun]
 
-author: wooyun
+author: 乌云知识库
 
 excerpt: "自动生成正则表达式"
 
@@ -130,11 +130,9 @@ out:
 length这三种模式，比如我们检测长度的信息熵为0那么我们只需要单纯的返回 \d{长度} 同时我们加入了一个
 熵参数shan，只要长度的信息熵超过这个值就说明数据不确定性太大，匹配任意长度就行，低于这个值 我们就只需要匹配某个区间的长度就行。
 
-    
-    
-    #!python
-    class HalfPatten:
-    
+	#!python
+	class HalfPatten:
+	
         def __init__(self,x):
             self.x = x
             self.type = "halfPatten"
@@ -195,11 +193,9 @@ length这三种模式，比如我们检测长度的信息熵为0那么我们只�
 
 out:
 
-    
-    
-    \d{3}
-    \d{3,4}
-    \d{3}
+	\d{3}
+	\d{3,4}
+	\d{3}
     \d+
     
 
