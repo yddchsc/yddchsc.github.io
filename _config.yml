@@ -54,7 +54,7 @@ kramdown:
 
 # 地址设置
 baseurl: "/yddchsc.github.io"
-url: "http://yddchsc.github.io:4000"
+url: "http://yddchsc.github.io"
 
 
 # 分页设置
