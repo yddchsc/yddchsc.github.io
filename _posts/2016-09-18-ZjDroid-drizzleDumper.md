@@ -13,7 +13,7 @@ excerpt: "安卓逆向的第一步"
 
 ---
 
-###ZjDroid的安装与使用###
+### ZjDroid的安装与使用 ###
 
 **参考教程**:
 
@@ -30,7 +30,7 @@ excerpt: "安卓逆向的第一步"
 
 > 可惜ZjDroid已经过时了，新的壳都脱不了了。。。。。
 
-###drizzleDumper的安装与使用###
+### drizzleDumper的安装与使用 ###
 
 > [教程及下载地址](http://www.4848438.com/post-877.html)
 

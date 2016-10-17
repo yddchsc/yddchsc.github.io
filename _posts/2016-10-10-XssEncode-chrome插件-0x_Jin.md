@@ -3,9 +3,9 @@ layout: post
 
 title:  XssEncode chrome插件
 
-tags:  [wooyun]
+tags:  [wooyun,Web]
 
-categories: [wooyun]
+categories: [wooyun,Web]
 
 author: 乌云知识库
 
@@ -157,11 +157,9 @@ html实体编码的分号在大部分情况下都是可以去掉的 能减少输
 
 Hook生成
 
-> [[hook.js]通用Javascript函数钩子](http://www.freebuf.com/articles/7310.html)
-> 
-> [Anehta — hook任意javascript函数](http://huaidan.org/archives/2468.html)
-> 
-
+	[[hook.js]通用Javascript函数钩子](http://www.freebuf.com/articles/7310.html) 
+	[Anehta — hook任意javascript函数](http://huaidan.org/archives/2468.html)
+ 
 基本介绍 ：把你的钩子(hook)放入到左边的Encode里 然后勾选你要进行生成的hook类型！然后点后面的生成就好了！
 
 每次请选择一种，别淘气 我没写太多的判断js。。。 精力有限！
