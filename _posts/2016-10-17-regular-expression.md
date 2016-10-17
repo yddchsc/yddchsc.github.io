@@ -100,8 +100,6 @@ w,c,o,m....可以看出这我们思考的这几个例子都有一些共同的模
 [5,6,5,6]，那么它的信息熵就是 (1/2) · log(1/2) – (1/2) · log(1/2) ≈ 0.693 又或者说我们有
 5，5，5，5这有的数字长度，那么他的shan就是0. 接下来我们转化成代码。
 
-    
-    
     #!python
     from math import log
     def shan(x):
@@ -109,15 +107,13 @@ w,c,o,m....可以看出这我们思考的这几个例子都有一些共同的模
         for i in set(x):
             shan -= (float(x.count(i))/len(x))*log(float(x.count(i))/len(x))
         return shan
-    
+
     print shan([5,6,5,6])
     print shan([5,5,5,5])
     
 
 out:
 
-    
-    
     0.69314718056
     0.0
     
@@ -132,7 +128,6 @@ length这三种模式，比如我们检测长度的信息熵为0那么我们只�
 
 	#!python
 	class HalfPatten:
-	
         def __init__(self,x):
             self.x = x
             self.type = "halfPatten"
@@ -143,8 +138,6 @@ length这三种模式，比如我们检测长度的信息熵为0那么我们只�
                 self.shan -= (float(self.x_length.count(i))/len(self.x_length))*log(float(self.x_length.count(i))/len(self.x_length))
             for c in set(self.x):
                 self.regShan -= (float(self.x.count(c))/len(self.x))*log(float(self.x.count(c))/len(self.x))
-    
-    
         def detection(self,string):
             s = ''.join(string)
             if len(s)==0:
@@ -155,18 +148,15 @@ length这三种模式，比如我们检测长度的信息熵为0那么我们只�
                 return "\w"
             else:
                 return "."
-    
         def gener(self,patten):
             if patten=="all":
                 return "%s+"%(self.detection(self.x))
             elif patten=="zone":
                 x_len = self.x_length
                 x_len.sort()
-    
-                return "%s{%i,%i}"%(self.detection(self.x),x_len[0],x_len[-1])
+                return "%s{ %i,%i }"%(self.detection(self.x),x_len[0],x_len[-1])
             else:
-                return "%s{%i}"%(self.detection(self.x),self.x_length[0])
-    
+                return "%s{ %i }"%(self.detection(self.x),self.x_length[0])
         def regex(self,shanRule):
             if self.detection(self.x)=="":
                 return ""
