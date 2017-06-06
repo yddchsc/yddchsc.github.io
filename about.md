@@ -20,7 +20,8 @@ permalink: /about/
 + 一只目前程序媛，正努力朝web安全转变的菜鸟。(2016年）
 + Java,PHP,Python,JavaScript,C,C++,Lua
 + 目前目标是自动化运维
- 
+
+
 ### 所谓经历
 
 ***
