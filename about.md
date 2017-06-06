@@ -8,18 +8,19 @@ permalink: /about/
 
 ***
 
-+ `QQ: 1145833162`
-+ `Email: yddchsc@qq.com`
-+ `Sina Microblog: yddchsc`
-+ `Wechat：duanxinhuishou`
++ QQ: 1145833162
++ Email: yddchsc@qq.com
++ Sina Microblog: yddchsc
++ Wechat：duanxinhuishou
 
 ### 所谓技能
 
 ***
 
-+ `一只目前程序媛，正努力朝web安全转变的菜鸟。`
-+ `Java,PHP,Python,JavaScript,C,C++,Lua`
-
++ 一只目前程序媛，正努力朝web安全转变的菜鸟。(2016年）
++ Java,PHP,Python,JavaScript,C,C++,Lua
++ 目前目标是自动化运维
+ 
 ### 所谓经历
 
 ***
@@ -86,6 +87,10 @@ permalink: /about/
 
 + 开始学习Web安全。
 
+**2016年4月**
+
++ 和一位师兄做分布式网络爬虫爬取股票信息后进行汇总处理。
+ 
 **2016年6月**
 
 + 加入Xp0int安全团队
